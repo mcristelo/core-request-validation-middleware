@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreventXss", "PreventXss\PreventXss.csproj", "{2D97CC3E-EA4C-4CFE-9AC4-66D13C069751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestValidationMiddleware", "RequestValidationMiddleware\RequestValidationMiddleware.csproj", "{81D2BA63-59C2-41FE-95F4-D4E0B2941C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D97CC3E-EA4C-4CFE-9AC4-66D13C069751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D97CC3E-EA4C-4CFE-9AC4-66D13C069751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D97CC3E-EA4C-4CFE-9AC4-66D13C069751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D97CC3E-EA4C-4CFE-9AC4-66D13C069751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D2BA63-59C2-41FE-95F4-D4E0B2941C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D2BA63-59C2-41FE-95F4-D4E0B2941C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D2BA63-59C2-41FE-95F4-D4E0B2941C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D2BA63-59C2-41FE-95F4-D4E0B2941C37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D764CBC-1B6D-46E8-A701-D060319B10F8}
+	EndGlobalSection
+EndGlobal
